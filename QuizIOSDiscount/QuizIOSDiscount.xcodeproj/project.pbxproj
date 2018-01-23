@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2060C1332016DE8D00D28F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060C1322016DE8D00D28F93 /* AppDelegate.swift */; };
+		2060C1352016DE8D00D28F93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060C1342016DE8D00D28F93 /* ViewController.swift */; };
+		2060C1382016DE8D00D28F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2060C1362016DE8D00D28F93 /* Main.storyboard */; };
+		2060C13A2016DE8D00D28F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2060C1392016DE8D00D28F93 /* Assets.xcassets */; };
+		2060C13D2016DE8D00D28F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2060C13B2016DE8D00D28F93 /* LaunchScreen.storyboard */; };
+		2060C1482016DE8D00D28F93 /* QuizIOSDiscountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060C1472016DE8D00D28F93 /* QuizIOSDiscountTests.swift */; };
+		2060C1532016DE8E00D28F93 /* QuizIOSDiscountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060C1522016DE8E00D28F93 /* QuizIOSDiscountUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2060C1442016DE8D00D28F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2060C1272016DE8D00D28F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2060C12E2016DE8D00D28F93;
+			remoteInfo = QuizIOSDiscount;
+		};
+		2060C14F2016DE8E00D28F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2060C1272016DE8D00D28F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2060C12E2016DE8D00D28F93;
+			remoteInfo = QuizIOSDiscount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2060C12F2016DE8D00D28F93 /* QuizIOSDiscount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizIOSDiscount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2060C1322016DE8D00D28F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2060C1342016DE8D00D28F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2060C1372016DE8D00D28F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2060C1392016DE8D00D28F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2060C13C2016DE8D00D28F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2060C13E2016DE8D00D28F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2060C1432016DE8D00D28F93 /* QuizIOSDiscountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizIOSDiscountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2060C1472016DE8D00D28F93 /* QuizIOSDiscountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizIOSDiscountTests.swift; sourceTree = "<group>"; };
+		2060C1492016DE8D00D28F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2060C14E2016DE8E00D28F93 /* QuizIOSDiscountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizIOSDiscountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2060C1522016DE8E00D28F93 /* QuizIOSDiscountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizIOSDiscountUITests.swift; sourceTree = "<group>"; };
+		2060C1542016DE8E00D28F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2060C12C2016DE8D00D28F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2060C1402016DE8D00D28F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2060C14B2016DE8E00D28F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2060C1262016DE8D00D28F93 = {
+			isa = PBXGroup;
+			children = (
+				2060C1312016DE8D00D28F93 /* QuizIOSDiscount */,
+				2060C1462016DE8D00D28F93 /* QuizIOSDiscountTests */,
+				2060C1512016DE8E00D28F93 /* QuizIOSDiscountUITests */,
+				2060C1302016DE8D00D28F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2060C1302016DE8D00D28F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2060C12F2016DE8D00D28F93 /* QuizIOSDiscount.app */,
+				2060C1432016DE8D00D28F93 /* QuizIOSDiscountTests.xctest */,
+				2060C14E2016DE8E00D28F93 /* QuizIOSDiscountUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2060C1312016DE8D00D28F93 /* QuizIOSDiscount */ = {
+			isa = PBXGroup;
+			children = (
+				2060C1322016DE8D00D28F93 /* AppDelegate.swift */,
+				2060C1342016DE8D00D28F93 /* ViewController.swift */,
+				2060C1362016DE8D00D28F93 /* Main.storyboard */,
+				2060C1392016DE8D00D28F93 /* Assets.xcassets */,
+				2060C13B2016DE8D00D28F93 /* LaunchScreen.storyboard */,
+				2060C13E2016DE8D00D28F93 /* Info.plist */,
+			);
+			path = QuizIOSDiscount;
+			sourceTree = "<group>";
+		};
+		2060C1462016DE8D00D28F93 /* QuizIOSDiscountTests */ = {
+			isa = PBXGroup;
+			children = (
+				2060C1472016DE8D00D28F93 /* QuizIOSDiscountTests.swift */,
+				2060C1492016DE8D00D28F93 /* Info.plist */,
+			);
+			path = QuizIOSDiscountTests;
+			sourceTree = "<group>";
+		};
+		2060C1512016DE8E00D28F93 /* QuizIOSDiscountUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2060C1522016DE8E00D28F93 /* QuizIOSDiscountUITests.swift */,
+				2060C1542016DE8E00D28F93 /* Info.plist */,
+			);
+			path = QuizIOSDiscountUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2060C12E2016DE8D00D28F93 /* QuizIOSDiscount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2060C1572016DE8E00D28F93 /* Build configuration list for PBXNativeTarget "QuizIOSDiscount" */;
+			buildPhases = (
+				2060C12B2016DE8D00D28F93 /* Sources */,
+				2060C12C2016DE8D00D28F93 /* Frameworks */,
+				2060C12D2016DE8D00D28F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizIOSDiscount;
+			productName = QuizIOSDiscount;
+			productReference = 2060C12F2016DE8D00D28F93 /* QuizIOSDiscount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2060C1422016DE8D00D28F93 /* QuizIOSDiscountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2060C15A2016DE8E00D28F93 /* Build configuration list for PBXNativeTarget "QuizIOSDiscountTests" */;
+			buildPhases = (
+				2060C13F2016DE8D00D28F93 /* Sources */,
+				2060C1402016DE8D00D28F93 /* Frameworks */,
+				2060C1412016DE8D00D28F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2060C1452016DE8D00D28F93 /* PBXTargetDependency */,
+			);
+			name = QuizIOSDiscountTests;
+			productName = QuizIOSDiscountTests;
+			productReference = 2060C1432016DE8D00D28F93 /* QuizIOSDiscountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2060C14D2016DE8E00D28F93 /* QuizIOSDiscountUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2060C15D2016DE8E00D28F93 /* Build configuration list for PBXNativeTarget "QuizIOSDiscountUITests" */;
+			buildPhases = (
+				2060C14A2016DE8E00D28F93 /* Sources */,
+				2060C14B2016DE8E00D28F93 /* Frameworks */,
+				2060C14C2016DE8E00D28F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2060C1502016DE8E00D28F93 /* PBXTargetDependency */,
+			);
+			name = QuizIOSDiscountUITests;
+			productName = QuizIOSDiscountUITests;
+			productReference = 2060C14E2016DE8E00D28F93 /* QuizIOSDiscountUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2060C1272016DE8D00D28F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Pramudana";
+				TargetAttributes = {
+					2060C12E2016DE8D00D28F93 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					2060C1422016DE8D00D28F93 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2060C12E2016DE8D00D28F93;
+					};
+					2060C14D2016DE8E00D28F93 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2060C12E2016DE8D00D28F93;
+					};
+				};
+			};
+			buildConfigurationList = 2060C12A2016DE8D00D28F93 /* Build configuration list for PBXProject "QuizIOSDiscount" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2060C1262016DE8D00D28F93;
+			productRefGroup = 2060C1302016DE8D00D28F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2060C12E2016DE8D00D28F93 /* QuizIOSDiscount */,
+				2060C1422016DE8D00D28F93 /* QuizIOSDiscountTests */,
+				2060C14D2016DE8E00D28F93 /* QuizIOSDiscountUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2060C12D2016DE8D00D28F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2060C13D2016DE8D00D28F93 /* LaunchScreen.storyboard in Resources */,
+				2060C13A2016DE8D00D28F93 /* Assets.xcassets in Resources */,
+				2060C1382016DE8D00D28F93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2060C1412016DE8D00D28F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2060C14C2016DE8E00D28F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2060C12B2016DE8D00D28F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2060C1352016DE8D00D28F93 /* ViewController.swift in Sources */,
+				2060C1332016DE8D00D28F93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2060C13F2016DE8D00D28F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2060C1482016DE8D00D28F93 /* QuizIOSDiscountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2060C14A2016DE8E00D28F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2060C1532016DE8E00D28F93 /* QuizIOSDiscountUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2060C1452016DE8D00D28F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2060C12E2016DE8D00D28F93 /* QuizIOSDiscount */;
+			targetProxy = 2060C1442016DE8D00D28F93 /* PBXContainerItemProxy */;
+		};
+		2060C1502016DE8E00D28F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2060C12E2016DE8D00D28F93 /* QuizIOSDiscount */;
+			targetProxy = 2060C14F2016DE8E00D28F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2060C1362016DE8D00D28F93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2060C1372016DE8D00D28F93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2060C13B2016DE8D00D28F93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2060C13C2016DE8D00D28F93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2060C1552016DE8E00D28F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2060C1562016DE8E00D28F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2060C1582016DE8E00D28F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = QuizIOSDiscount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuizIOSDiscount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2060C1592016DE8E00D28F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = QuizIOSDiscount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuizIOSDiscount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2060C15B2016DE8E00D28F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = QuizIOSDiscountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuizIOSDiscountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizIOSDiscount.app/QuizIOSDiscount";
+			};
+			name = Debug;
+		};
+		2060C15C2016DE8E00D28F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = QuizIOSDiscountTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuizIOSDiscountTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizIOSDiscount.app/QuizIOSDiscount";
+			};
+			name = Release;
+		};
+		2060C15E2016DE8E00D28F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = QuizIOSDiscountUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuizIOSDiscountUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizIOSDiscount;
+			};
+			name = Debug;
+		};
+		2060C15F2016DE8E00D28F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = QuizIOSDiscountUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuizIOSDiscountUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizIOSDiscount;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2060C12A2016DE8D00D28F93 /* Build configuration list for PBXProject "QuizIOSDiscount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2060C1552016DE8E00D28F93 /* Debug */,
+				2060C1562016DE8E00D28F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2060C1572016DE8E00D28F93 /* Build configuration list for PBXNativeTarget "QuizIOSDiscount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2060C1582016DE8E00D28F93 /* Debug */,
+				2060C1592016DE8E00D28F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2060C15A2016DE8E00D28F93 /* Build configuration list for PBXNativeTarget "QuizIOSDiscountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2060C15B2016DE8E00D28F93 /* Debug */,
+				2060C15C2016DE8E00D28F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2060C15D2016DE8E00D28F93 /* Build configuration list for PBXNativeTarget "QuizIOSDiscountUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2060C15E2016DE8E00D28F93 /* Debug */,
+				2060C15F2016DE8E00D28F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2060C1272016DE8D00D28F93 /* Project object */;
+}
